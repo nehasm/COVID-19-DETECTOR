@@ -6,7 +6,7 @@ COVID-19 bot and detector is a web app. It has a bot that behaves like a human. 
 This project is an AI-based to help people to detect what is the probability of having COVID-19. It talks to users, so they are not required to fill the long-form before detecting probability. When the user chats with a bot, whatever the user says appears in the textbox and it can be edit before submitting to the bot. It is the revolutionaries' way of not only chatting with users but also getting data.
 The COVID Detector has an artificial intelligence model that was trained on past data to predict the probability of COVID-19 by using symptoms and other features asked in chats. We suggest users take Doctors’ advice and stay healthy. The main aim of project is to interact with more and more people and get data which is the real requirement of India at this stage. Also, help people using AI to not take a risk and get doctor advice in the condition of having real symptoms for the disease.
 
-### Technologies
+### Technologies :zap:
 * Flask
 * Javascript
 * Dialogflow
@@ -27,7 +27,7 @@ The COVID Detector has an artificial intelligence model that was trained on past
 * run
 ` python app.py`
 * This can also be host on heroku.
-### Image of app
+### Image of app :page_facing_up:
 
 
 
