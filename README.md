@@ -30,9 +30,9 @@ The COVID Detector has an artificial intelligence model that was trained on past
 ### Image of app :page_facing_up:
 <img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/3.jpeg" width="250" height="400">      <img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/2.jpeg" width="250" height="400">      <img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/5.jpeg" width="250" height="400">
 <br>
-<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/1.png" width="600" height="500">
+<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/1.PNG" width="600" height="500">
 <br>
-<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/4.png" width="600" height="500">
+<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/4.PNG" width="600" height="500">
 
 
 
