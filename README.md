@@ -17,16 +17,22 @@ The COVID Detector has an artificial intelligence model that was trained on past
 
 ### Usage  :pushpin:
 * The web app is deployed [here](https://covidbotdetector.herokuapp.com).
-###### This run locally and steps to follow:
+###### To run the app locally and steps to be followed:
 * Clone the respository
-* Make changes in dialogflow 
+* Make sure to have all the requirements as in requirements file.
+* Make changes in the dialogflow and corresponding to app.py
 * Give correct path in .env file
 * run 
+
 ` python model.py `
-* Get the https url for fulfillment in Dialogflow
-* run
+
+* Get the https url for fulfillment in Dialogflow(To run locally, you can use ngrok)
+* 
+
 ` python app.py`
+
 * This can also be host on heroku.
+
 ### Image of app :page_facing_up:
 <img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/3.jpeg" width="250" height="400">      <img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/2.jpeg" width="250" height="400">      <img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/5.jpeg" width="250" height="400">
 <br>
