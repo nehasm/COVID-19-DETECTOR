@@ -16,7 +16,7 @@ The COVID Detector has an artificial intelligence model that was trained on past
 * Web API
 
 ### Usage  :pushpin:
-* This web app is deployed [here](https://covidbotdetector.herokuapp.com).
+* The web app is deployed [here](https://covidbotdetector.herokuapp.com).
 ###### This run locally and steps to follow:
 * Clone the respository
 * Make changes in dialogflow 
