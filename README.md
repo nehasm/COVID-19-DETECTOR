@@ -15,7 +15,7 @@ The COVID Detector has an artificial intelligence model that was trained on past
 * Heroku
 * Web API
 
-<h3>Usage</h3> :pushpin: 
+### Usage  :pushpin:
 * This web app is deployed [here](https://covidbotdetector.herokuapp.com).
 ###### This run locally and steps to follow:
 * Clone the respository
