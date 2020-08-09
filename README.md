@@ -28,8 +28,9 @@ The COVID Detector has an artificial intelligence model that was trained on past
 ` python app.py`
 * This can also be host on heroku.
 ### Image of app :page_facing_up:
-
-
+<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/3.jpeg" width="250" height="400">
+<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/2.jpeg" width="250" height="400">
+<img src="https://github.com/nehasm/COVID-19-DETECTOR/blob/master/images/3.jpeg" width="250" height="400">
 
 
 
