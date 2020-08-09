@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+</head>
+<body>
+    <div id="container">
+    <div id="head-container">
+        <h1 id="heading">COVID-19 DETECTOR</h1>
+    </div>
+    <div id='detect-container'><h1 id="detect-head">Probability of being infected by COVID-19 is {{inf}}%.</h1></div>
+    <div id='back-container'><button id="back_btn" onclick="window.location.href='/'">Back</button></div>
+    <div id="probpara">
+        <p style="color:#0F4C75;">The probability is base on the data shared on chats. We recommend you take Doctor's advice.<br>
+            Stay Safe, Stay Healthy</p>          
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</body>
+</html>

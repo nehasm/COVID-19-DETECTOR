@@ -1,0 +1,14 @@
+{
+    "name":"Covid Detector",
+    "short_name":"CovidDetector",
+    "start_url":"/",
+    "background_color":"#E4F9FF",
+    "theme_color":"#E4F9FF",
+    "display":"standalone",
+    "orientation":"portrait-primary",
+    "icons":[{
+        "src":"logo.png",
+        "type":"image/png",
+        "sizes":"150x150"
+    }]
+}

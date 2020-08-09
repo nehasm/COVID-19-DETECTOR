@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <title>Detector Error</title>
+</head>
+<style>
+    #back_btn{
+background-color: #0F4C75;
+display: inline-block;
+color: white;
+font-size: 22px;
+border-radius: 10px;
+border: none;
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+margin-top: 5%;
+text-align: center;
+}
+#back-container{
+    text-align: center;
+}
+</style>
+<body>
+    <h1 style="color:#0F4C75; margin-left:10%;" align:center>Please chat in chatbot and then I will able to find probability</h1>
+    <div id='back-container'><button id="back_btn" onclick="window.location.href='/'">Back</button></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <title>Covid Voice Bot</title>
+  </head>
+  <body>
+      <!-- <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-md-8 col-sm-12 mx-auto">
+                <div class="h-100 justify-content-center"> -->
+                  <div id="heading">
+                    <h1>COVID-19 Voice Bot</h1>
+                  </div>
+                  <marquee behavior="alternate" style="color:#0F4C75;" BGCOLOR=#E4F9FF>Please take the survey with voice bot and after that click on the detector to check the probability of COVID-19.</marquee>
+                    <div class="chat-container" style="overflow-x: auto; overflow-y:auto;">
+                        <div class="chat-message col-md-5 offset-md-7 bot-message">
+                          Hello!
+                        </div>
+                    </div>
+                    <form id="target">
+                      <div>
+                        <input class="input" type="text" value="" placeholder="Enter message..." id="textbox"/>
+                        <input type="submit"hidden></div>
+                        <br>
+                        <div id='speech-box'>
+                        <div id='start-btn-div'><button id="start-btn">start</button></div>
+                        <div id='ins-div'><p id='instructions' style="color:#0F4C75;" >Click the start button</p></div></div>
+
+                    </form>
+                <!-- </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="last-para-container">
+    <p id='last-para' style="color:#0F4C75;">
+      1. To interact with a chatbot, you can type in the text box as well as you can speak. If you are speaking, see that the start button pressed and I am listening is visible to you.<br>
+      2.If the conversation abort or If you want to record another survey say <strong>Hello</strong>.<br>
+      3. When you speak something, it will appear in the textbox, so that you can edit the text and submit the correct message to the chatbot.<br>
+      4. After chatting, you can check the probability of having COVID-19 by clicking on Detector.
+    </p>
+    <div id="mainpage-detect">
+    <p style="color:#0F4C75;">Please click on Detector.</p>
+    <button id="detect_btn" onclick="window.location.href='/detector'">Detector</button></div></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='custom.js')}}"></script>
+    <script src="{{ url_for('static', filename='script.js')}}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  </body>
+</html>
